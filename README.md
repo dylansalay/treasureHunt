@@ -8,7 +8,7 @@ If the player runs out of guesses, a popup message will appear indicating that t
 
 ![alt text](public/image2.png)
 
-Each game, there is one bomb randomly placed in one of the locations on on the board. If the player clicks on the location of the bomb, a popup message will appear indicating that the player has lost. Upon closing the message, the board will automatically reset.
+Each game, there is one bomb randomly placed in one of the locations on the board. If the player clicks on the location of the bomb, a popup message will appear indicating that the player has lost. Upon closing the message, the board will automatically reset.
 
 ![alt text](public/image3.png)
 
