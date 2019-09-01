@@ -1,68 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Treasure Hunt is an easy to use application that involves guessing the location of treasure on a 3x3 board. The application was built using React.js, HTML and CSS.
 
-## Available Scripts
+To use, a player can guess the location of the treasure by clicking on one of the question marks. The player has 5 guesses per game. There is a "Number of tries" display below the board that indicates the number of tries that the player has remaining. If the player makes a guess incorrectly, a tree will appear in place of the location of the guess and the "Number of tries" will decrease by 1.
 
-In the project directory, you can run:
+![alt text](public/Image1.png)
 
-### `npm start`
+If the player runs out of guesses, a popup message will appear indicating that the player has ran out of guess attempts. Upon closing the message, the board will automatically reset.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![alt text](public/Image2.png)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Each game, there is one bomb randomly placed in one of the locations on on the board. If the player clicks on the location of the bomb, a popup message will appear indicating that the player has lost. Upon closing the message, the board will automatically reset.
 
-### `npm test`
+![alt text](public/Image3.png)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To win, the player will need to guess the location of the treasure within 5 tries, and without clicking on the bomb. If the player is able to find the treasure, a popup message will appear indicating that the player has won. Upon closing the message, the board will automatically reset.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![alt text](public/Image4.png)
